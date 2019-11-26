@@ -20,7 +20,7 @@ public class TaskTwo {
         String falseGenericField = ((StudyInterface<String>)proxy).getFalseGenericField();
 
         System.out.println("");
-        System.out.println("Real field  = " + realGenericField);
-        System.out.println("False field = " + falseGenericField);
+        System.out.println("Get studyClass.realGenericField field by getGenericField()  = " + realGenericField);
+        System.out.println("Get studyClass.realGenericField field by getFalseGenericField() with annotation = " + falseGenericField);
     }
 }
